@@ -13,7 +13,7 @@ int Half::search(T *s, int size, T what) {
     while (true)
     {
         mid=(left+right)/2;
-        cout<<format("mid: {},left {},right {}\n",mid,left,right);
+      //  cout<<format("mid: {},left {},right {}\n",mid,left,right);
         if (abs(left-right)==1)
             return -2;
 

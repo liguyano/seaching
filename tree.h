@@ -2,9 +2,11 @@
 // Created by kurum on 9/21/2022.
 //
 #include "pulicinClude.h"
-#include "chain.cpp"
+#include "chain.h"
 template<typename T>
-struct node{node* father=NULL;node* left=NULL ;node* right=NULL;T value;};
+struct node{node<T>* father=NULL;node<T>* left=NULL ;node<T>* right=NULL;T value;};
+
+
 template<typename T>
 void add_left(node<T> * father,T value)
 {

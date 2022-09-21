@@ -4,8 +4,8 @@
 #include <iostream>
 using namespace std;
 
-    template<typename T>
-   struct chainNode{chainNode* next=NULL;T value=NULL;};
+template<typename T>
+struct chainNode{chainNode<T>* next=NULL;T value=NULL;};
 
 template<typename T>
 void add_head(T value,chainNode<T>** head=NULL)

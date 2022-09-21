@@ -6,7 +6,7 @@
 #define SEACHING_HALSEACH_H
 
 #include "pulicinClude.h"
-#include "tree.cpp"
+#include "tree.h"
 
 namespace Half {
     template<class T>

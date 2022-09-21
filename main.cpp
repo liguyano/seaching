@@ -1,7 +1,9 @@
 #include <iostream>
 #include "halSeach.h"
 #include "halSeach.tpp"
+#include "tree.cpp"
 int main() {
+
     auto list=new int[6]{1,6,9,45,99,100};
     auto result= Half::search(list,6,1);
 

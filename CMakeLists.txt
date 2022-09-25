@@ -4,3 +4,4 @@ project(seaching)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(seaching main.cpp halSeach.tpp halSeach.h pulicinClude.h tree.h chain.h)
+add_executable(backNum backNum.cpp)
